@@ -8,7 +8,7 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import nltk
-from PIL import Image
+
 
 nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
